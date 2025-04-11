@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
       theme: AppTheme(selectedColor: 0).getTheme(),
       title: 'Material App',
       
-      
     );
   }
 }

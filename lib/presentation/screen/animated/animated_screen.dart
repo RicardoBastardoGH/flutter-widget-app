@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AnimatedScreen extends StatelessWidget {
 
-  static const String name = 'animated_screen';
+  static const String routeName = 'animated_screen';
   
   const AnimatedScreen({super.key});
 

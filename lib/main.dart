@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:widgets_app/config/theme/app_theme.dart';
 import 'package:widgets_app/config/theme/router/app_router.dart';
 
-void main() => runApp(const MyApp());
+void main() => 
+  runApp(
+    ProviderScope(
+      child: const MyApp()
+    )
+  );
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
